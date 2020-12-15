@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+:root{
+    --smoky-slate: #b0b1aa;
+    --soft-sky: #c5e4dc;
+    --pink: #fed9d0;
+    --basic-gray: #757978;
+    --blush: #f2b8ad;
+    --dark-gray: #272b2e;
+    --rust: #8a574a;
+    --dark-rust: #332522;
+    --smoke: #9a8c85;
+}
+*{
+    color: var(--dark-gray);
+    font-family: 'Poiret One';
+}
+/* home */
+#home{
+    height: 100vh;
+}
+.header{
+    height: 111.2vh !important;
+    width: 100% !important;
+}
+.show{
+    background-color: transparent;
+    z-index: -1;
+}
+.show-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* css3 transform */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: transparent;
+}
+
+.show-item h2 {
+    font-size: 40px;
+    margin: 20px;
+    background-color: transparent;
+}
+
+.show-item p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+#button {
+    color: var(--dark-gray);
+    border: 1px solid var(--dark-gray);
+    padding: .4em 1.5em;
+    text-decoration: none;
+    background-color: transparent;
+}
+#button:hover{
+    background-color: #fff;
+}
+/* grid container */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    border-bottom: var(--dark-gray) solid 1px;
+}
+h1 a{
+    text-decoration: none;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    padding-top: 0;
+    margin-top: 0;
+    opacity: 0.825;
+    z-index: +2;
+}
+.grid-container h1{
+    padding: 10px;
+}
+.grid-container nav ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 20px;
+    text-align: center;
+}
+.grid-container nav ul li{
+    list-style-type: none;
+}
+.grid-container nav ul li a{
+    text-decoration: none;
+}
+/* about */
+#about{
+    height: 30.8vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+.check-out{
+    text-decoration: none;
+}
+.check-out:hover{
+    color: var(--pink);
+}
+/* grid container 2 */
+.grid-container2{
+    display: grid;
+    grid-auto-rows: max-content;
+    padding: 10px;
+    margin-top: 40px;
+    grid-gap: 10px;
+}
+.box1{
+    border-bottom: solid 2px var(--smoke);
+    border-top: solid 2px var(--smoke);
+}
+.grid-container2 img{
+    object-fit: cover;
+    max-height: 400px;
+    justify-content: center; 
+}
+.grid-container2 .signature{
+    font-family: 'Handlee';
+    text-align: right;
+    padding-right: 10px;
+}
+.item2-1{
+    grid-column: 1/span 0;
+}
+.item2-2{
+    grid-column: 2/span 60;
+    padding: 30px;
+    padding-top: 0;
+}
+/* expertise */
+#expertise{
+    height: 150px;
+    width: 100%;
+}
+/* grid container 3 */
+.grid-container3{
+    display: grid;
+/*     padding: 10px; */
+    grid-gap: 10px;
+/*     margin-top: 10px; */
+    padding-top: 0;
+}
+.box2{
+    background-color: var(--smoky-slate);
+    padding: 10px;
+    opacity: 0.6;
+    height: 35vh;
+    text-align: center;
+}
+.box2 .fa-html5, .fa-js, .fa-instagram, .fa-phone{
+    color: #fff;
+}
+.box2 h3, .box2 p{
+    color: #fff;
+}
+.insta, .pinterest, .phone, .email{
+    text-decoration: none !important;
+}
+.insta, .phone{
+    color: #fff !important;
+}
+.box3{
+    background-color: var(--pink);
+    padding: 10px;
+    opacity: 0.6;
+    height: 35vh;
+    text-align: center;
+}
+.item3-1{
+    grid-column: 1/span 1;
+}
+.item3-2{
+    grid-column: 2/span 1;
+}
+.item3-3{
+    grid-column: 3/span 1;
+}
+.item3-4{
+    grid-column: 4/span 1;
+}
+.fab, .fas, .far{
+    font-size: 40px;
+    padding: 10px;
+}
+
+/* gallery */
+#gallery{
+    height: 100vh;
+    /* padding-top: 10vh; */
+}
+/* slider */
+.banner{
+    position: relative;
+    z-index: -1;
+    height: 111.2vh;
+    width: 100vw;
+}
+.slider{
+    position: absolute;
+    width: 100%;
+    height: 111.2vh;
+    overflow: hidden !important;
+}
+
+/* services */
+#services{
+    height: 44.25vh;
+    padding-top: 10vh;
+    padding-bottom: 6vh;
+}
+.box4{
+    border-bottom: solid 2px var(--smoke);
+    border-top: solid 2px var(--smoke);
+    height: 52.6vh;
+}
+.grid-container4{
+    display: grid;
+    padding-top: 5vh;
+}
+.item4-1{
+    grid-column: 1/span 60;
+    padding: 30px;
+    padding-top: 0;
+}
+.item4-2{
+    grid-column: 2/span 0;
+}
+/* social */
+#grid-thing{
+    height: 43vh;
+}
+#social{
+    height: 135px;
+    width: 100%;
+}
+/* contact */
+#contact{
+    height: 100vh;
+    /* padding-top: 11.5vh; */
+}
+.contact-text{
+    position: absolute;
+    top: 475vh;
+    left: 50%;
+    /* css3 transform */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: transparent;
+}
+.contact-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+.contact-items input[type="text"]{
+    margin-bottom: 15px;
+    width:300%;
+    padding:15px;
+    outline: none;
+    border: 1px solid var(--smoke);
+}
+.contact-items textarea{
+    margin-bottom: 15px;
+    width:300%;
+    padding:15px;
+    outline: none;
+    border: 1px solid var(--smoke);
+}
+.button{
+    background: var(--pink);
+    padding:0.5em;
+    text-align: center;
+    width: 309%;
+    display: block;
+    margin-bottom: 1em;
+    border: 1px solid var(--main-color);
+    text-decoration: none;
+}
+
+/* hover spin */
+.fa-spin-hover:hover{
+    -webkit-animation: fa-spin 1s ease-out 0s infinite normal;
+    -moz-animation: fa-spin 1s ease-out 0s infinite normal;
+    -o-animation: fa-spin 1s ease-out 0s infinite normal;
+    animation: fa-spin 1s ease-out 0s infinite normal;
+}
+
+footer{
+    text-align: center
+}
+
+@media screen and (max-width: 1439.984px) and (min-width: 786px){
+    #about{
+        height: 45.65vh;
+    }
+    #expertise{
+        height: 110px;
+        width: 100%;
+    }
+    #services{
+        height: 45vh;
+    }
+    #social{
+        height: 92px;
+        width: 100%;
+    }
+    .contact-text{
+        position: absolute;
+        top: 492vh;
+        left: 50%;
+        /* css3 transform */
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: transparent;
+    }
+}
+
+
