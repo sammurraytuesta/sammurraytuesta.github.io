@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 :root {
     --dark: #3D2F3D;
     --orange: #FDAE86;
@@ -79,6 +78,16 @@ section {
     z-index: +1;
 }
 
+.jumbotron{
+    position: absolute;
+    border: 1vh solid white;
+    height: 40vh;
+    width: 60vw;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .welcome{
     position: absolute; 
     top: 50%;
@@ -105,21 +114,31 @@ section {
 }
 
 .profilePicture {
+    transform: translateY(-140%);
     border-radius: 50%;
+    border: 1vh solid white;
     height: 50vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.jumbotron{
-    position: absolute;
+.about-me{
+    transform: translateY(30%);
     border: 1vh solid white;
-    height: 40vh;
-    width: 60vw;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leaves-middle-2{
+    position: absolute;
+    height: 100%;
+    top: 350%;
+    right: -40%;
+    transform: rotate(90deg);
 }
 
 .leaves-bottom {

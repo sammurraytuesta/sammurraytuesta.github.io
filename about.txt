@@ -1,0 +1,40 @@
+My name is Samantha Murray Tuesta and I am a second-year undergraduate student at Western Washington University where I am pursuing a Bachelor of Science in Computer Science. My academic fields of interest include web design and programing which I incorporate through the pursuit of both my degree and minor which happens to be in Internet Studies, more specifically Internet Resource Creation and Management. In taking courses designed to further me in my academic studies, I have found a great love for technology and all that it is and can be. While I am not in the classroom, I am actively taking part in research offered to me by Dr. Caroline Hardin at my university. My research is aimed at developing an interactive web game designed to teach students of any age the importance of digital privacy. 
+
+I am excited to take part in such an exhilarating work environment and hope to continue finding other jobs that allow me to be creative and have fun with the projects I am working on. Some fun facts about me are that I was born and raised in Seattle to a hard-working immigrant mother from Peru. Growing up I had the privilege of being able to visit my mothers hometown of Chiclayo many times. In doing so, I developed a love of the culture at such a young age that I consider it to be a very important part of my identity that I am proud to share. I have spent many mornings waking up to my mother playing Spanish music
+
+all throughout our home, and many meals eating delicious Peruvian foods like ceviche. My absolute favorite soda has to be Peruvian Inca Kola, I drink it all the time. Some other areas in my life include my hobbies. I love watching basketball, my favorite team is definitely the Miami Heat. But I also enjoy the more local Trail Blazers every once in a while. I also love to play the piano and the cello whenever I can and I love to draw almost anything from realism to cartoons. I find enjoyment in everything I do. Thank you so much for taking the time to get to know me. I hope you enjoy the rest of my website. Feel free to contact me about any inquiries you may have.
+
+
+<div class="text">
+    <h1>Who I am . . .</h1>
+    <div class="item"></div>
+    <div class="item"><br><br><br><br></div>
+    <div class="item"><br><h4>-Samantha Murray Tuesta</h4></div>
+</div>
+
+
+.about-me .text{
+    padding: 4%;
+}
+
+.about-me .text h1{
+    height: 5%;
+    margin-bottom: 5%;
+}
+
+.about-me .text .item{
+    height: 60vh;
+    margin-top: 1%;
+    margin-bottom: 0vh;
+    width: 31%;
+    float: left;
+}
+
+.about-me .text .item h4{
+    font-family: 'Handlee';
+    float: right;
+}
+
+.about-me .text .item + .item{
+    margin-left: 2.8vw;
+}
