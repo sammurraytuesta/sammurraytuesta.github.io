@@ -70,7 +70,7 @@ section {
     height: 100%;
 }
 
-.leaves-top {
+.leaves-home-1 {
     position: absolute;
     height: 100%;
     top: 0%;
@@ -106,7 +106,7 @@ section {
     transform: translate(-50%, -50%);
 }
 
-.leaves-middle-1{
+.leaves-home-2{
     position: absolute;
     height: 100%;
     top: 35%;
@@ -133,15 +133,32 @@ section {
     margin-right: auto;
 }
 
-.leaves-middle-2{
+.leaves-gallery-1{
     position: absolute;
     height: 100%;
-    top: 350%;
-    right: -40%;
-    transform: rotate(90deg);
+    left: 0%;
+    top: 250%;
 }
 
-.leaves-bottom {
+.project-container{
+    padding: 6%;
+    transform: translateY(15%);
+    display: flex;
+}
+
+.project-container .project{
+    flex: 1;
+    height: 50vh;
+    width: 20vw;
+    border: 1vh solid white;
+    border-radius: 50%;
+}
+
+.project-container .project+.project{
+    margin-left: 2vw;
+}
+
+.leaves-contact {
     position: absolute;
     height: 100%;
     top: 605%;
