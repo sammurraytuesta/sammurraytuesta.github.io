@@ -175,7 +175,7 @@ section {
     margin-right: auto;
 }
 
-.project-container .project .fab{
+.project-container .project .fab, .project-container .project .fas{
     margin-left: 50%;
     margin-top: 25%;
     transform: translate(-50%, -50%);
