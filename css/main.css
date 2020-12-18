@@ -155,6 +155,7 @@ section {
 
 .project-container .project{
     flex: 1;
+    overflow: hidden;
     height: 50vh;
     width: 20vw;
     border: 1vh solid white;
@@ -179,6 +180,15 @@ section {
     margin-left: 50%;
     margin-top: 25%;
     transform: translate(-50%, -50%);
+}
+
+.project-container .project .description{
+    padding: 2%;
+    height: 28vh;
+    text-align: center;
+    font-size: 2.5vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 .leaves-contact {
