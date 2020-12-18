@@ -175,6 +175,12 @@ section {
     margin-right: auto;
 }
 
+.project-container .project .fab{
+    margin-left: 50%;
+    margin-top: 25%;
+    transform: translate(-50%, -50%);
+}
+
 .leaves-contact {
     position: absolute;
     height: 100%;
