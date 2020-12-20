@@ -120,8 +120,64 @@ section {
     border-radius: 50%;
     border: 1vh solid white;
     height: 50vh;
-    display: block;
-    margin: auto;
+    position: absolute;
+    z-index: +1;
+    top: 110%;
+    right: 6%;
+}
+
+.about-me{
+    border: 1vh solid white;
+    position: absolute;
+    overflow: hidden;
+    top: 120%;
+    left: 10%;
+    height: 70vh;
+    width: 80vw;
+}
+
+.about-me .indent{
+    width: 52vw;
+    margin: 5vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    text-indent: 5vh;
+}
+
+.about-me .about-title{
+    margin: 5vh;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.inner-about{
+    width: 55vw;
+}
+
+.signature{
+    font-family: 'Handlee';
+    margin: 5vh;
+    margin-top: 2vh;
+    float: right;
+}
+
+.leaves-about-1{
+    position: absolute;
+    height: 100%;
+    top: 145%;
+    right: 0%;
+}
+
+.expertise-title{
+    margin: 3%;
+    font-size: 4vh;
+    text-align: center;
+}
+.expertise-title:before{
+    content: "- ";
+}
+.expertise-title:after{
+    content: " -";
 }
 
 .leaves-services-1{
@@ -140,7 +196,7 @@ section {
 
 .project-container{
     padding: 6%;
-    transform: translateY(15%);
+    transform: translateY(-10%);
     display: flex;
 }
 
