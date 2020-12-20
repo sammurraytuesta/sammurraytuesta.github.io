@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
-/* font-family: 'Homemade Apple', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
-/* font-family: 'IM Fell English SC', serif; */
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=IM+Fell+English+SC&family=Molle:ital@1&display=swap');
-/* font-family: 'Molle', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Homemade+Apple&display=swap');
-/* font-family: 'Bebas Neue', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Homemade+Apple&family=Monoton&display=swap');
-/* font-family: 'Monoton', cursive; */
+
 :root {
     --dark: #3D2F3D;
     --orange: #FDAE86;
