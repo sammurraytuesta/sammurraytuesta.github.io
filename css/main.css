@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+/* font-family: 'Homemade Apple', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=IM+Fell+English+SC&display=swap');
+/* font-family: 'IM Fell English SC', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=IM+Fell+English+SC&family=Molle:ital@1&display=swap');
+/* font-family: 'Molle', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Homemade+Apple&display=swap');
+/*  */
 :root {
     --dark: #3D2F3D;
     --orange: #FDAE86;
@@ -22,7 +30,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
-    border-bottom: var(--dark) solid 1px;
     overflow: hidden;
     background-color: #fff;
     width: 100%;
@@ -185,6 +192,8 @@ section {
 .project-container .project .description{
     padding: 2%;
     height: 28vh;
+    width: 20vw;
+    margin: 0 auto;
     text-align: center;
     font-size: 2.5vh;
     border-bottom-left-radius: 50%;
