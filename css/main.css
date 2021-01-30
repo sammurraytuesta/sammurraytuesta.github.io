@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monoton:ital@1&display=swap');
-/* font-family: 'Molle', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+/* font-family: 'Monoton', cursive; */
 
 :root {
     --dark: #3D2F3D;
@@ -48,8 +48,7 @@
 
 #navbar nav ul {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 20px;
     text-align: center;
 }
@@ -173,7 +172,7 @@ section {
 .leaves-services-1{
     position: absolute;
     height: 110%;
-    top: 445%;
+    top: 345%;
     right: 0%;
 }
 
@@ -181,7 +180,7 @@ section {
     position: absolute;
     height: 100%;
     left: 0%;
-    top: 250%;
+    top: 260%;
 }
 
 .project-container{
@@ -195,7 +194,7 @@ section {
     overflow: hidden;
     height: 50vh;
     width: 20vw;
-    margin-top: 10vh;
+    margin-top: 35vh;
     border: 1vh solid white;
     border-radius: 50%;
 }
@@ -221,9 +220,29 @@ section {
     border-bottom-right-radius: 50%;
 }
 
+/* titles */
 .title{
+    position: absolute;
     font-family: 'Monoton', cursive;
+    font-size: 15vh;
 }
+#about-title{
+    top: 110%;
+    left: 5%;
+}
+#expert-title{
+    top: 210%;
+    left: 5%;
+}
+#portfolio-title{
+    top: 410%;
+    left: 5%;
+}
+#contact-title{
+    top: 510%;
+    right: 5%;
+}
+
 
 .DPD{
     position: relative;
@@ -234,10 +253,17 @@ section {
     border: 1vh solid white;
 }
 
+.leaves-portfolio-1{
+    position: absolute;
+    height: 100%;
+    left: 0%;
+    top: 460%;
+}
+
 .leaves-contact {
     position: absolute;
     height: 100%;
-    top: 605%;
+    top: 505%;
     right: 0%;
 }
 
