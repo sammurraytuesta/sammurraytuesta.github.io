@@ -223,23 +223,23 @@ section {
 /* titles */
 .title{
     position: absolute;
-    font-family: 'Monoton', cursive;
-    font-size: 15vh;
+    letter-spacing: 5vw;
+    font-size: 8vh;
 }
 #about-title{
-    top: 110%;
+    top: 115%;
     left: 5%;
 }
 #expert-title{
-    top: 210%;
+    top: 215%;
     left: 5%;
 }
 #portfolio-title{
-    top: 410%;
+    top: 415%;
     left: 5%;
 }
 #contact-title{
-    top: 510%;
+    top: 515%;
     right: 5%;
 }
 
