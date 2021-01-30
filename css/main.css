@@ -209,7 +209,6 @@ section {
     margin-left: 2vw;
 }
 
-
 .project-container .project .fab, .project-container .project .fas{
     margin-left: 50%;
     margin-top: 25%;
@@ -225,6 +224,13 @@ section {
     font-size: 2.5vh;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+}
+
+.DPD{
+    position: relative;
+    top: 20vh;
+    height: 70vh;
+    border: 1vh solid white;
 }
 
 .leaves-contact {
