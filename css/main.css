@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton:ital@1&display=swap');
+/* font-family: 'Molle', cursive; */
 
 :root {
     --dark: #3D2F3D;
@@ -24,8 +26,6 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     overflow: hidden;
-    background: white;
-    opacity: 0.8;
     font-weight: 900;
     width: 100%;
     height: 10%;
@@ -170,12 +170,6 @@ section {
     right: 0%;
 }
 
-.project-title{
-    margin: 3%;
-    font-size: 4vh;
-    text-align: center;
-}
-
 .leaves-services-1{
     position: absolute;
     height: 110%;
@@ -201,6 +195,7 @@ section {
     overflow: hidden;
     height: 50vh;
     width: 20vw;
+    margin-top: 10vh;
     border: 1vh solid white;
     border-radius: 50%;
 }
@@ -226,10 +221,16 @@ section {
     border-bottom-right-radius: 50%;
 }
 
+.title{
+    font-family: 'Monoton', cursive;
+}
+
 .DPD{
     position: relative;
-    top: 20vh;
-    height: 70vh;
+    top: 10vh;
+    display: block;
+    margin: auto;
+    height: 80vh;
     border: 1vh solid white;
 }
 
