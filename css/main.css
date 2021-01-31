@@ -203,7 +203,7 @@ section {
     margin-left: 2vw;
 }
 
-.project-container .project .fab, .project-container .project .fas{
+.project-container .project .fab, .project-container .project .fas,  .project-container .project .far{
     margin-left: 50%;
     margin-top: 25%;
     transform: translate(-50%, -50%);
@@ -241,6 +241,39 @@ section {
 #contact-title{
     top: 515%;
     right: 5%;
+}
+#contact-title:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 4vh;
+    right: 4%;
+    z-index: -1;
+    background-color: white;
+}
+#portfolio-title:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 4vh;
+    left: -4%;
+    z-index: -1;
+    background-color: white;
+}
+#expert-title:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 4vh;
+    left: -4%;
+    z-index: -1;
+    background-color: white;
 }
 
 
@@ -289,4 +322,53 @@ section {
 
 footer {
     text-align: center;
+}
+
+
+.contact-text{
+    position: absolute;
+    top: 530vh;
+    left: 12%;
+}
+.contact-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-items input[type="text"]{
+    border: 1vh solid white;
+    background-color: transparent;
+    width: 30vw;
+    margin-bottom: 2vh;
+}
+.contact-items textarea{
+    outline: none;
+    border: 1vh solid white;
+    background-color: transparent;
+    width: 30vw;
+    margin-bottom: 2vh;
+}
+.button{
+    text-align: center;
+    display: block;
+    border: 1vh solid white;
+    background-color: transparent;
+    text-decoration: none;
+    width: 10vw;
+}
+
+.alt-contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 3 columns */
+    grid-template-rows: repeat(2, 5vh); /* 3 rows  */
+    grid-gap: 10vh 0vw; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+    position: absolute;
+    top: 532vh;
+    left: 47%;
+    text-align: center;
+    width: 35vw;
+}
+.des{
+    font-size: 2.5vh;
+    margin-top: auto;
 }
