@@ -1,15 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-/* font-family: 'Monoton', cursive; */
 
 :root {
     --dark: #3D2F3D;
-    --orange: #FDAE86;
-    --blue: #DAEAE4;
-    --pink: #ffe6e8;
-    --purple: #b5c2f4;
-    --green: #d0f0c0;
     --alice: #f0f8ff;
 }
 
