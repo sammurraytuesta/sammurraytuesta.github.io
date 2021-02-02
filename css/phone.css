@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+    /* navbar */
+
+    /* leaves */
+    .leaves{ height: 60%;}
+    .leaves-home-1{height: 70%;}
+    .leaves-home-2{top: 57%; left: -45%;}
+    .leaves-about{top: 180%;}
+    /* home */
+    .welcome{font-size: 5vh;}
+    .typewrite{font-size: 2.5vh;}
+    /* titles */
+    .title{font-size: 5vh;}
+    #about-title{top: 117%;}
+    /* about */
+    .profilePicture{height: 20vh; right: 4%;}
+    .inner-about{width: 75vw; font-size: 72%;}
+    .about-me .indent{width: 65vw;}
+    .about-me .indent-1{margin-top: 12vh;}
+    /* expertise and portfolio */
+
+    /* gallery */
+
+    /* contact */
+}
