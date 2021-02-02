@@ -176,11 +176,8 @@ section {
     width: 80vw;
 }
 .about-me .indent{
-    width: 52vw;
-    margin: 5vh;
-    margin-bottom: 2vh;
-    margin-top: 2vh;
     text-indent: 5vh;
+    margin-left: 5%;
 }
 .about-me .indent-1{
     margin-top: 15vh;

@@ -14,7 +14,7 @@
     /* about */
     .profilePicture{height: 10vh; right: 2%; top: 114%;}
     .inner-about{width: 70vw; font-size: 60%; margin: 0 auto;}
-    .about-me .indent{width: 60vw;}
+    .about-me .indent{width: 60vw; margin-left: 0;}
     .about-me .indent-1{margin-top: 6vh;}
     /* expertise and portfolio */
 
