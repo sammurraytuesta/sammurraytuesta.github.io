@@ -3,19 +3,19 @@
 
     /* leaves */
     .leaves{ height: 50%;}
-    .leaves-home-2{top: 60%; left: -45%;}
+    .leaves-home-2{top: 65%; left: -45%;}
     .leaves-about{top: 180%;}
     /* home */
-    .welcome{font-size: 4vh; margin: 6vh;  margin-bottom: 2vh;}
-    .typewrite{font-size: 2vh;}
+    .welcome{font-size: 4vh; margin: 5vh;}
+    .typewrite{font-size: 2vh; margin: 5vh;}
     /* titles */
     .title{font-size: 4vh;}
     #about-title{top: 118%;}
     /* about */
     .profilePicture{height: 10vh; right: 2%; top: 114%;}
-    .inner-about{width: 60vw; font-size: 60%; margin: 0 auto;}
-    .about-me .indent{width: 50vw;}
-    .about-me .indent-1{margin-top: 10vh;}
+    .inner-about{width: 70vw; font-size: 60%; margin: 0 auto;}
+    .about-me .indent{width: 60vw;}
+    .about-me .indent-1{margin-top: 6vh;}
     /* expertise and portfolio */
 
     /* gallery */
