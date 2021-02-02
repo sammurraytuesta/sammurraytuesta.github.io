@@ -13,7 +13,6 @@
 }
 
 /* navbar */
-
 #navbar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -32,185 +31,84 @@
     left: 0;
     transition: top 0.3s;
 }
-
 #navbar h1 {
     padding-left: 20px;
 }
-
-#navbar h1 a {
-    text-decoration: none;
-}
-
 #navbar nav ul {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding: 20px;
     text-align: center;
 }
-
 #navbar nav ul li {
     list-style-type: none;
 }
 
-#navbar nav ul li a {
-    text-decoration: none;
-}
-
+/* single page layout */
 body, html {
     height: 100%;
     background-color: var(--alice);
 }
-
 section {
     height: 100%;
 }
 
+/* leaves */
 .leaves{
     opacity: 0.7;
-}
-
-.leaves-home-1 {
     position: absolute;
     height: 100%;
+}
+.leaves-home-1{
     top: 0%;
     right: 0%;
     z-index: +1;
 }
-
-.jumbotron{
-    position: absolute;
-    border: 1vh solid white;
-    height: 40vh;
-    width: 60vw;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.welcome{
-    position: absolute; 
-    top: 50%;
-    left: 50%; 
-    font-size: 8vh;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-.home-description{
-    position: absolute; 
-    top: 60%;
-    left: 50%; 
-    font-size: 4vh;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
 .leaves-home-2{
-    position: absolute;
-    height: 100%;
     top: 35%;
     left: -25%;
 }
-
-.profilePicture {
-    border-radius: 50%;
-    border: 1vh solid white;
-    height: 50vh;
-    position: absolute;
-    z-index: +1;
-    top: 110%;
-    right: 6%;
-}
-
-.about-me{
-    border: 1vh solid white;
-    position: absolute;
-    overflow: hidden;
-    top: 120%;
-    left: 10%;
-    height: 70vh;
-    width: 80vw;
-}
-
-.about-me .indent{
-    width: 52vw;
-    margin: 5vh;
-    margin-bottom: 2vh;
-    margin-top: 2vh;
-    text-indent: 5vh;
-}
-
-.about-me .about-title{
-    margin: 5vh;
-    font-size: 4vh;
-    text-align: center;
-}
-
-.inner-about{
-    width: 55vw;
-}
-
-.signature{
-    font-family: 'Handlee';
-    margin: 5vh;
-    margin-top: 2vh;
-    float: right;
-}
-
-.leaves-about-1{
-    position: absolute;
-    height: 100%;
+.leaves-about{
     top: 145%;
     right: 0%;
 }
-
-.leaves-services-1{
-    position: absolute;
-    height: 110%;
-    top: 345%;
-    right: 0%;
-}
-
-.leaves-gallery-1{
-    position: absolute;
-    height: 100%;
+.leaves-gallery{
     left: 0%;
     top: 260%;
 }
-
-.project-container{
-    padding: 6%;
-    transform: translateY(-10%);
-    display: flex;
+.leaves-portfolio-1{
+    height: 110%;
+    z-index: -1;
+    top: 345%;
+    right: 0%;
+}
+.leaves-portfolio-2{
+    left: 0%;
+    top: 460%;
+}
+.leaves-contact {
+    top: 505%;
+    right: 0%;
 }
 
-.project-container .project{
-    flex: 1;
-    overflow: hidden;
-    margin-top: 35vh;
+/* home */
+.jumbotron{
+    position: absolute;
+    top: 53%;
+    left: 50%;
     border: 1vh solid white;
-    border-radius: 50%;
-}
-
-.project-container .project+.project{
-    margin-left: 2vw;
-}
-
-.project-container .project .fab, .project-container .project .fas,  .project-container .project .far{
-    margin-left: 50%;
-    margin-top: 25%;
+    height: 40vh;
+    width: 60vw;
     transform: translate(-50%, -50%);
-}
-
-.project-container .project .description{
-    padding: 2%;
-    height: 28vh;
-    width: 20vw;
-    margin: 0 auto;
     text-align: center;
-    font-size: 2.5vh;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+}
+.welcome{
+    font-size: 8vh;
+    margin-top: 12vh;
+}
+.typewrite{
+    font-size: 4vh;
+    margin-top: 2vh;
 }
 
 /* titles */
@@ -227,9 +125,31 @@ section {
     top: 215%;
     left: 5%;
 }
+#expert-title:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 4vh;
+    left: -4%;
+    z-index: -1;
+    background-color: white;
+}
 #portfolio-title{
     top: 415%;
     left: 5%;
+}
+#portfolio-title:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 4vh;
+    left: -4%;
+    z-index: -1;
+    background-color: white;
 }
 #contact-title{
     top: 515%;
@@ -246,30 +166,76 @@ section {
     z-index: -1;
     background-color: white;
 }
-#portfolio-title:before{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 10%;
+
+/* about */
+.profilePicture {
+    border-radius: 50%;
+    border: 1vh solid white;
+    height: 50vh;
     position: absolute;
-    bottom: 4vh;
-    left: -4%;
-    z-index: -1;
-    background-color: white;
+    z-index: +1;
+    top: 110%;
+    right: 6%;
 }
-#expert-title:before{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 10%;
+.about-me{
+    border: 1vh solid white;
     position: absolute;
-    bottom: 4vh;
-    left: -4%;
-    z-index: -1;
-    background-color: white;
+    overflow: hidden;
+    top: 120%;
+    left: 10%;
+    height: 70vh;
+    width: 80vw;
+}
+.about-me .indent{
+    width: 52vw;
+    margin: 5vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    text-indent: 5vh;
+}
+.inner-about{
+    width: 55vw;
+}
+.signature{
+    font-family: 'Handlee';
+    margin: 5vh;
+    margin-top: 2vh;
+    float: right;
 }
 
+/* expertise and portfolios*/
+.project-container{
+    padding: 6%;
+    transform: translateY(-10%);
+    display: flex;
+}
+.project-container .project{
+    flex: 1;
+    overflow: hidden;
+    margin-top: 35vh;
+    border: 1vh solid white;
+    border-radius: 50%;
+}
+.project-container .project+.project{
+    margin-left: 2vw;
+}
+.project-container .project .fab, .project-container .project .fas,  .project-container .project .far{
+    margin-left: 50%;
+    margin-top: 25%;
+    transform: translate(-50%, -50%);
+}
+.project-container .project .description{
+    padding: 2%;
+    height: 28vh;
+    width: 20vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
 
+/* gallery */
 .current-project{
     position: relative;
     top: 10vh;
@@ -279,45 +245,8 @@ section {
     width: 75%;
     border: 1vh solid white;
 }
-#current-project .cp-description{
-    position: absolute;
-    z-index: +1;
-    top: 352vh;
-    left: 50%; 
-    padding: 2%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    height: 72vh;
-    width: 70%;
-    border: 1vh solid white;
-    background-color: white;
-    opacity: 0.95;
-}
-#current-project .cp-description p{
-    width: 70%;
-    display: block;
-    margin: auto;
-}
 
-.leaves-portfolio-1{
-    position: absolute;
-    height: 100%;
-    left: 0%;
-    top: 460%;
-}
-
-.leaves-contact {
-    position: absolute;
-    height: 100%;
-    top: 505%;
-    right: 0%;
-}
-
-footer {
-    text-align: center;
-}
-
-
+/* contact */
 .contact-text{
     position: absolute;
     top: 530vh;
@@ -349,19 +278,23 @@ footer {
     text-decoration: none;
     width: 10vw;
 }
-
 .alt-contact{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  /* 3 columns */
-    grid-template-rows: repeat(2, 5vh); /* 3 rows  */
-    grid-gap: 10vh 0vw; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 5vh);
+    grid-gap: 10vh 0vw;
     position: absolute;
     top: 532vh;
     left: 47%;
     text-align: center;
     width: 35vw;
 }
-.des{
+.contact-des{
     font-size: 2.5vh;
     margin-top: auto;
+}
+
+/* footer */
+footer {
+    text-align: center;
 }
